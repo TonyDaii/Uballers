@@ -1,0 +1,4 @@
+.lists-grounds {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,15 +1,16 @@
+import './App.css';
+
+import { Route, Routes } from "react-router-dom";
+import Home from './home';
+import GroundDetails from './ground';
+
 export default function App() {
   return (
     <div className="App">
-        <a
-          
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React Hello there
-        </a>
+    <Routes>
+      <Route path="/" element={<Home/>} />
+      <Route path="/details" element={<GroundDetails/>} />
+    </Routes>
     </div>
   );
 }
