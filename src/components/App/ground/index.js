@@ -2,6 +2,8 @@
 //import 'style.css';
 import { useParams } from "react-router"
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
+import AppHeader from "../appHeader";
 
 export default function GroundDetails() {
     // we use uneParams to get the url name or number
@@ -17,11 +19,13 @@ export default function GroundDetails() {
     }
     
     // we use the function findGround here
-    const oneGround = useSelector((state) => findGround(state.favorite.allGrounds, slug))
+    const oneGround = useSelector((state) => findGround(state.groundData.dataGround.allGrounds, slug));
 
+   
     return(
         // and then we use the value we get and display to the jsx 
         <div>
+            <AppHeader />
            <h1>{oneGround.groundName}</h1>
            <h2>{oneGround.city}</h2>
            <p>{oneGround.address}</p>
@@ -29,6 +33,8 @@ export default function GroundDetails() {
            <p>{oneGround.limit}</p>
            <p>{oneGround.basketNumber}</p>
            <p>{oneGround.transport}</p>
+
+            <Link to={"/"}>Retour à l'accueil</Link>
         </div>
     )
 };

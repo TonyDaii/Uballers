@@ -1,10 +1,10 @@
 // import
 import { configureStore } from "@reduxjs/toolkit";
-import { favoriteSlice } from "../store";
+import { groundSlice } from "../store";
 
-
+// the store
 export const store = configureStore({
     reducer: {
-        favorite: favoriteSlice.reducer
+        groundData: groundSlice.reducer
     }
 })

@@ -2,3 +2,12 @@
     display: flex;
     flex-direction: column;
 }
+
+.fav {
+    all: unset;
+    cursor: pointer;
+}
+
+.fav:focus {
+    outline: yellowgreen;
+}
