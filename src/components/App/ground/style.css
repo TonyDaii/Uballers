@@ -1,7 +1,6 @@
 .detail{
     display: flex;
     flex-direction: column;
-    
 }
 
 .detail-back {
@@ -24,4 +23,5 @@
     border-radius: 5px;
     border: solid black;
     border-width: thin;
+    padding-left: 1em;
 }

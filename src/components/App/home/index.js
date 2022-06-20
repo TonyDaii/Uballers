@@ -29,7 +29,7 @@ export default function Home() {
     <div key={data.groundId} className="lists">
       <Link to={`/details/${data.groundId}`}>{data.groundName}</Link>
       <div className="lists-add">
-        <button type="button" className="lists-add" onClick={() => handleAddToFavorite(data)} >✨</button>  
+        <button type="button" className="lists-add" onClick={() => handleAddToFavorite(data)} >★</button>  
       </div>
     </div>
   ));
@@ -38,7 +38,7 @@ export default function Home() {
     <div key={data.groundId} className="lists">
       <Link to={`/details/${data.groundId}`}>{data.groundName}</Link>
       <div className="lists-add">
-        <button type="button" className="lists-add" onClick={() => handleAddToFavorite(data)} >✨</button>  
+        <button type="button" className="lists-add" onClick={() => handleAddToFavorite(data)} >★</button>  
       </div>
     </div>
   ));
