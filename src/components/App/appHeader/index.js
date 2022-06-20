@@ -1,8 +1,10 @@
-import { Link } from "react-router-dom"
-
+import "./style.css";
+import { Link } from "react-router-dom";
 
 export default function AppHeader() {
-    return(
-        <Link to={'/favorites'}>Favoris</Link>  
-    )
+  return (
+    <div className="favorite">
+      <Link to={"/favorites"} className="favorite-link">Mes favoris</Link>
+    </div>
+  );
 }

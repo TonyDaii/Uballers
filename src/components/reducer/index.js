@@ -4,7 +4,7 @@ import { groundSlice } from "../store";
 
 // the store
 export const store = configureStore({
-    reducer: {
-        groundData: groundSlice.reducer
-    }
-})
+  reducer: {
+    groundData: groundSlice.reducer,
+  },
+});

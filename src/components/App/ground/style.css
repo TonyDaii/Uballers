@@ -1,0 +1,27 @@
+.detail{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.detail-back {
+    
+    font-size: 1.5em;
+    margin-top: 2em;
+}
+
+.detail-back a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.detail-back a:hover{
+    color: gold;
+}
+
+.detail-information{
+    background-color: orange;
+    border-radius: 5px;
+    border: solid black;
+    border-width: thin;
+}

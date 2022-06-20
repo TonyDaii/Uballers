@@ -3,11 +3,67 @@
     flex-direction: column;
 }
 
-.fav {
-    all: unset;
-    cursor: pointer;
+.filter{
+    display: flex;
+    justify-content: space-evenly;
+   
 }
 
-.fav:focus {
-    outline: yellowgreen;
+.filter button{
+    background-color: #eee;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-size: 1em;
+    color: black;
+    border: solid black;
+    border-width: thin;
+
 }
+
+.filter button:hover{
+    background: orange;
+    color: #eee;
+}
+
+.lists{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.2rem;
+    align-items: center;
+    background-color: #eee;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.lists a{
+    text-decoration: none;
+    color: black;
+}
+
+.lists a:hover{
+    color: gold;
+}
+
+.lists-add{
+    font-size: 1.5em;
+}
+.lists-add button{
+    
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-size: 1em;
+    color: black;
+    border-width: thin;
+}
+
+.lists-add button:hover{
+    color: gold;
+}
+

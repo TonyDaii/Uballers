@@ -1,0 +1,24 @@
+.favorite{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 2em;
+    
+}
+
+.favorite-link{
+    text-decoration: none;
+    background-color: #eee;
+    border-radius: 3px;
+    color: black;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    border: solid black;
+    border-width: thin;
+    padding: 0.5rem;
+}
+
+.favorite-link:hover{
+    color: #eee;
+    background-color: gold;
+}

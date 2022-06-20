@@ -1,0 +1,47 @@
+.oneGround{
+    background-color: orange;
+    border-radius: 5px;
+    border: solid black;
+    border-width: thin;
+    margin-bottom: 1em;
+}
+
+.oneGround-delete{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.oneGround-delete button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-size: 1em;
+    color: black;
+
+}
+
+.oneGround-delete button:hover{
+    color: red;
+}
+
+.oneGround-button{
+    font-size: 1.5em;
+}
+
+.return {
+    margin-top: 2em;
+    font-size: 1.5em;
+}
+
+.return a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.return a:hover{
+    color: gold;
+}
